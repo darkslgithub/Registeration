@@ -19,7 +19,7 @@ class Home extends CI_Controller {
 		$this->load->view('Register');
 		
 	}
-	public function Reg()
+	public function Regeee()
 	{
 		$this->load->view('Reg');
 		
