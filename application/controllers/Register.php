@@ -17,7 +17,7 @@ class Register extends CI_Controller
 		}
 		else
 		{
-			$this->load->model('Model_user');
+			$this->load->model('Model_usertttttt');
 			$response = $this->Model_user->insertUserdata();
 			if ($response){
 				$this->session->set_flashdata('msg','Registered sucessfully');
